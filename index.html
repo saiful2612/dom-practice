@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="text-4xl text-center mt-14">WelCome To <span class="font-semibold text-pink-600" >BRAC</span> Bank</h1>
+    </header>
+    <main>
+        <section class="bg-yellow-300 w-3/4 mx-auto mt-8 p-4">
+            <h3 class="font-medium mb-2">Please Login</h3>
+            <div>
+                <input id="user-email" class="block border border-gray-400 mb-4 w-3/4 px-2 py-2 rounded" type="text" name="" placeholder="Your email">
+                <input id="user-password" class="block border border-gray-400 mb-4 w-3/4 px-2 py-2 rounded" type="password" name="" placeholder="Password">
+                <button id="login-button" class="bg-green-300 rounded font-medium text-red-800 px-4 py-2 my-2">Submit</button>
+            </div>
+            <div id="alert-sign" class="text-red-600">
+
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/login.js"></script>
+</body>
+</html>
